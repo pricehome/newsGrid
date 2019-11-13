@@ -279,6 +279,12 @@ h6 {
 	grid-column: 1 / span 2;
 }
 
+#font-light {
+	color: #fff;
+	/* position: relative;
+	z-index: 1; */
+}
+
 #home-articles .articles-container > *:last-child {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -287,10 +293,23 @@ h6 {
 	grid-column: 2 / span 2;
 }
 
+#article .meta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #eee;
+	padding: 0.5rem;
+}
+
+#article .meta-category {
+	margin-top: 0.4rem;
+}
+
 /* Footer  */
 #main-footer {
 	background: var(--dark-color);
 	color: #fff;
+	padding: 0.75rem 1.5rem;
 }
 
 #main-footer img {
