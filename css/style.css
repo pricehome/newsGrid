@@ -159,6 +159,10 @@ h6 {
 	padding: 1.5rem 0;
 }
 
+.l-heading {
+	font-size: 3rem;
+}
+
 .list li {
 	padding: 0.5rem 0;
 	border-bottom: #555 dotted 1px;
